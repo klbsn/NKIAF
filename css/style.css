@@ -29,10 +29,13 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
     height: 40px;
     padding-left: 2%;
     padding-right: 2%;
+    
 }
 .social i{
      
     color: #fff;
+    padding-left: 40px;
+    
 }
 .social i:hover{
     color: orange;
@@ -93,7 +96,7 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
   .left_portion{
     background-color: #fff;
     opacity: 0.9;
-    height: 70%;
+    height: 60%;
     width: 30%;
     align-self: center;
     border-radius: 2%;
@@ -110,10 +113,11 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
 .left_portion :nth-child(2){
     margin-bottom: 12%;
 }
-.intro button{
+.contact{
     background-color: rgb(21, 165, 255);
     color: rgb(255, 255, 255);
     padding: 8px;
+    height: 40px;
     font-size: 1em;
     width: 120px;
     border: none;
@@ -191,39 +195,39 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
     
 }
 .students :nth-child(3){
-    background-image: url(/img/st2);
+    background-image: url(/img/standard1);
     
 }
 .students :nth-child(4){
-    background-image: url(/img/st2);
+    background-image: url(/img/news1);
     
 }
 .students :nth-child(5){
-    background-image: url(/img/st2);
+    background-image: url(/img/news2);
     
 }
 .students :nth-child(6){
-    background-image: url(/img/st2);
+    background-image: url(/img/news3);
     
 }
 .students :nth-child(7){
-    background-image: url(/img/st2);
+    background-image: url(/img/news4);
     
 }
 .students :nth-child(8){
-    background-image: url(/img/st2);
+    background-image: url(/img/news1);
     
 }
 .students :nth-child(9){
-    background-image: url(/img/st2);
+    background-image: url(/img/news3);
     
 }
 .students :nth-child(10){
-    background-image: url(/img/st2);
+    background-image: url(/img/news2);
     
 }
 .students :nth-child(2){
-    background-image: url(/img/st2);
+    background-image: url(/img/news4);
     
 }
 .standard{
@@ -343,4 +347,47 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
     display: flex;
     flex-direction: column;
 
+}
+
+
+/* contact styling here */
+
+.contact{
+    width: 100%;
+    padding: 4%;
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 20px;
+    background-color: blue;
+    /* background-image: url(/img/contactphone.jpg); */
+
+}
+.inputarea{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.inputarea input{
+    padding: 16px;
+    margin-bottom: 4%;
+    opacity: 0.6;
+    border: none;
+    border-radius: 4px;
+}
+.inputarea form{
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: space-between;
+}
+.send_details{
+    padding: 16px;
+    background-color: orange;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+}
+.send_details:hover{
+    background-color: aqua;
 }
